@@ -1,6 +1,7 @@
 import axios from 'axios'
 import React, { useEffect, useState } from 'react'
 import Caraousel from './Caraousel'
+import Footer from './Footer'
 import Navbar from './Navbar'
 
 
@@ -47,7 +48,7 @@ const Home = () => {
                     </div>
                 })}
             </div>
-          
+          <Footer/>
         </div>
     )
 }
